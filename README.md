@@ -4,37 +4,6 @@ VendorBridge is an enterprise-grade Procurement & Vendor Management ERP system b
 
 ## Directory Structure
 
-```
-/vendorbridge-erp
-  /backend
-    /prisma
-      schema.prisma      <-- Database layout (relational mapping)
-      seed.ts            <-- 20 Vendors, 10 Users, 25 RFQs, 60 Quotations seeding
-    /src
-      /controllers       <-- Layered routing handlers (auth, vendors, rfqs, quotes)
-      /middleware        <-- JWT & RBAC Auth guards, global error handler
-      /services          <-- Nodemailer email, PDFKit PO/invoice generator
-      /utils             <-- Logger, Zod validator rules
-      app.ts             <-- Express middlewares mapping
-      server.ts          <-- App bootstrap entry point
-    package.json
-    tsconfig.json
-  /frontend
-    /src
-      /components        <-- Navigation menus, notification bells, profile panels
-      /pages             <-- Screen views (dashboard cards, comparators, biddings)
-      /services          <-- Axios token refresh client
-      /store             <-- Redux auth and notification slices
-      main.tsx           <-- Client entry point
-      index.css          <-- Tailwind styling entry
-    package.json
-    tsconfig.json
-    vite.config.ts
-    tailwind.config.js
-  docker-compose.yml
-  package.json           <-- Orchestration wrapper
-```
-
 ## Setup & Startup Instructions
 
 ### 1. Database Configuration
