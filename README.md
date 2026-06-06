@@ -1,4 +1,4 @@
-npm run # VendorBridge ERP System
+### VendorBridge ERP System
 
 VendorBridge is an enterprise-grade Procurement & Vendor Management ERP system built using Node.js/Express/TypeScript on the backend, React/Vite/TypeScript on the frontend, and Prisma/SQLite for database operations.
 
