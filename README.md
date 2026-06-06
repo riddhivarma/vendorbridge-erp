@@ -22,17 +22,6 @@ Run the seed script to inject 20 vendors, 10 users, 25 RFQs, 60 quotations, and 
 npm run prisma:seed
 ```
 
-### 3. Launch Development Servers
-
-Start the backend and frontend concurrently:
-```bash
-# Start backend API (port 5000)
-npm run dev:backend
-
-# Start frontend Client (port 3000)
-npm run dev:frontend
-```
-
 ## User Login Credentials
 
 All users have the default password `password123`:
