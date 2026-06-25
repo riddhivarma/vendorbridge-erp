@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-
-</body>
-</html>
 # VendorBridge — Procurement & Vendor Management ERP
 
 A centralized enterprise resource planning platform designed to simplify and digitize procurement operations. VendorBridge manages the full procurement lifecycle — from vendor registration and RFQ creation through quotation comparison, multi-level approvals, purchase order generation, and invoice management.
-
 ---
 
 ## Table of Contents
